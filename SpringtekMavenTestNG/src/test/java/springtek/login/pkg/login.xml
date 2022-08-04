@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name = "Login">
+	<test name = "Login Test"> 
+			<classes>
+					<class name = "springtek.login.pkg.LoginTestNg"/>
+					<class name = "springtek.kid.pkg.KidsTest"/>
+			</classes>
+	</test>
+</suite>

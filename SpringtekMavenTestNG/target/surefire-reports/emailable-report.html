@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Single</th></tr>
+<tr><td><a href="#t0">Single one</a></td><td class="num">1</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">105,080</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Single</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Single one &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">springtek.kid.pkg.KidsTest</td><td><a href="#m0">addToCart</a></td><td rowspan="1">1659529265790</td><td rowspan="1">47509</td></tr><tr><th colspan="4">Single one &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">springtek.kid.pkg.KidsTest</td><td><a href="#m1">addToCart</a></td><td rowspan="2">1659529313308</td><td rowspan="2">-1659529313308</td></tr><tr class="skippedeven"><td><a href="#m2">addToCart</a></td></tr><tr class="skippedeven"><td><a href="#m3">beforeM</a></td><td rowspan="2">1659529313306</td><td rowspan="2">-1659529313306</td></tr><tr class="skippedeven"><td><a href="#m4">beforeM</a></td></tr><tr class="skippedeven"><td><a href="#m5">closeBrowser</a></td><td rowspan="1">1659529313308</td><td rowspan="1">-1659529313308</td></tr><tr><th colspan="4">Single one &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">springtek.kid.pkg.KidsTest</td><td><a href="#m6">bookFoldChair</a></td><td rowspan="1">1659529313307</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">bookTv</a></td><td rowspan="1">1659529313308</td><td rowspan="1">0</td></tr><tr><th colspan="4">Single one &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">springtek.kid.pkg.KidsTest</td><td><a href="#m8">bookChairs</a></td><td rowspan="1">1659529240108</td><td rowspan="1">25679</td></tr></tbody>
+</table>
+<h2>Single one</h2><h3 id="m0">springtek.kid.pkg.KidsTest#addToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a id=&quot;btngotocheckout&quot; href=&quot;/checkout&quot;&gt; is not clickable at point (1350,524) because another element &lt;iframe id=&quot;w5br5ffs3dj41659529269167&quot; class=&quot;&quot; src=&quot;about:blank&quot;&gt; obscures it
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-GO0JH4O6&apos;, ip: &apos;169.254.105.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d801830f-1f4c-4ca1-a293-7a975b3ef884, clickElement {id=12c4634a-d7b3-4c26-b830-d00a9efb4835}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:debuggerAddress: localhost:61713, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20560, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61713/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (d801830f-1f4c-4ca1-a293-7a975b3ef884)] -&gt; id: btngotocheckout]
+Session ID: d801830f-1f4c-4ca1-a293-7a975b3ef884
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at spingtek.addtocart.AddToCart.addToCart(AddToCart.java:95)
+	at springtek.kid.pkg.KidsTest.addToCart(KidsTest.java:154)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">springtek.kid.pkg.KidsTest#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">springtek.kid.pkg.KidsTest#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">springtek.kid.pkg.KidsTest#beforeM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">springtek.kid.pkg.KidsTest#beforeM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">springtek.kid.pkg.KidsTest#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">springtek.kid.pkg.KidsTest#bookFoldChair</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a id=&quot;btngotocheckout&quot; href=&quot;/checkout&quot;&gt; is not clickable at point (1350,524) because another element &lt;iframe id=&quot;w5br5ffs3dj41659529269167&quot; class=&quot;&quot; src=&quot;about:blank&quot;&gt; obscures it
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-GO0JH4O6&apos;, ip: &apos;169.254.105.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d801830f-1f4c-4ca1-a293-7a975b3ef884, clickElement {id=12c4634a-d7b3-4c26-b830-d00a9efb4835}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:debuggerAddress: localhost:61713, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20560, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61713/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (d801830f-1f4c-4ca1-a293-7a975b3ef884)] -&gt; id: btngotocheckout]
+Session ID: d801830f-1f4c-4ca1-a293-7a975b3ef884
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at spingtek.addtocart.AddToCart.addToCart(AddToCart.java:95)
+	at springtek.kid.pkg.KidsTest.addToCart(KidsTest.java:154)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">springtek.kid.pkg.KidsTest#bookTv</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a id=&quot;btngotocheckout&quot; href=&quot;/checkout&quot;&gt; is not clickable at point (1350,524) because another element &lt;iframe id=&quot;w5br5ffs3dj41659529269167&quot; class=&quot;&quot; src=&quot;about:blank&quot;&gt; obscures it
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;LAPTOP-GO0JH4O6&apos;, ip: &apos;169.254.105.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d801830f-1f4c-4ca1-a293-7a975b3ef884, clickElement {id=12c4634a-d7b3-4c26-b830-d00a9efb4835}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:debuggerAddress: localhost:61713, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20560, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61713/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (d801830f-1f4c-4ca1-a293-7a975b3ef884)] -&gt; id: btngotocheckout]
+Session ID: d801830f-1f4c-4ca1-a293-7a975b3ef884
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at spingtek.addtocart.AddToCart.addToCart(AddToCart.java:95)
+	at springtek.kid.pkg.KidsTest.addToCart(KidsTest.java:154)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">springtek.kid.pkg.KidsTest#bookChairs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Kids]">
+  <test thread-count="5" name="Kids test(failed)">
+    <classes>
+      <class name="testng.kids.pkg.KidsTest">
+        <methods>
+          <include name="bookBedsheet"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testng.kids.pkg.KidsTest -->
+    </classes>
+  </test> <!-- Kids test(failed) -->
+</suite> <!-- Failed suite [Kids] -->
